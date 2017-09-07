@@ -8,15 +8,23 @@ $(document).ready(function () {
     // Display current time
     displayTime();
 
-    $('#setButton').click(function (event) {
+    console.log("I am batman");
+
+    $('#setAlarmForm').submit(function (event) {
         event.preventDefault();
+
         console.log("I am grroot");
+
         var alarmHour = parseInt($('#setHour').val());
         var alarmMinute = parseInt($('#setMinute').val());
         $('#setHour').val("");
         $('#setMinute').val("");
+
         // Test
         console.log(alarmHour);
         console.log(alarmMinute);
+
+        // Display set alarm
+        $('#showAlarmImage').prepend('<h3> You set your alarm to ' + alarmHour + ':' + alarmMinute + '</h3>');
     });
 });
