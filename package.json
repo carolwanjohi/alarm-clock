@@ -1,0 +1,19 @@
+{
+  "name": "alarm-clock",
+  "version": "1.0.0",
+  "description": "An online alarm clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolwanjohi/alarm-clock.git"
+  },
+  "author": "Virginia Ndung'u and Carol Wanjohi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carolwanjohi/alarm-clock/issues"
+  },
+  "homepage": "https://github.com/carolwanjohi/alarm-clock#readme"
+}
