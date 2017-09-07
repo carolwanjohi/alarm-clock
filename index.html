@@ -20,10 +20,24 @@
         <h2 id="currentTime"></h2>
 
         <form id="setAlarmForm">
+            <h2>Enter the time for your alarm</h2>
             
-            <label for="setAlarmTime">Enter the time for your alarm</label>
-            <input id="setAlarmTime" type="text">
-            <button class="btn-success" id="setButton">Set Alarm</button>
+            <div class="form-group">
+
+                <label for="setHour">Enter the hour:</label>
+
+                <input id="setHour" class="form-control" type="text">
+
+            </div>
+            
+            <div class="form-group">
+
+                <label for="setMinute">Enter the minute:</label>
+
+                <input id="setMinute" class="form-control" type="text">
+            </div>
+            
+            <button class="btn-info" id="setButton">Set Alarm</button>
 
         </form>
 
