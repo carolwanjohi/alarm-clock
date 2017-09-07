@@ -26,7 +26,7 @@
 
                 <label for="setHour">Enter the hour:</label>
 
-                <input id="setHour" class="form-control" type="text">
+                <input required id="setHour" class="form-control" type="number" min="0" max="23">
 
             </div>
             
@@ -34,10 +34,10 @@
 
                 <label for="setMinute">Enter the minute:</label>
 
-                <input id="setMinute" class="form-control" type="text">
+                <input required id="setMinute" class="form-control" type="number" min="0" max="59">
             </div>
-            
-            <button class="btn-info" id="setButton">Set Alarm</button>
+
+            <button class="btn-info" id="setButton" type="submit">Set Alarm</button>
 
         </form>
 
