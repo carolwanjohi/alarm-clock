@@ -1,0 +1,23 @@
+{
+  "name": "alarm-clock",
+  "description": "An online alarm clock",
+  "main": "index.js",
+  "authors": [
+    "Virginia Ndung'u and Carol Wanjohi"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/carolwanjohi/alarm-clock",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.18.1"
+  }
+}
